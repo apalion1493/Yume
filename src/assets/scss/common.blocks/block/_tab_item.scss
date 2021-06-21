@@ -1,4 +1,7 @@
 .tab_item {
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
 
   .row {
     margin-left: 0;
@@ -100,13 +103,41 @@
 section.wrapper-tabs {
   padding-top: 74px;
   padding-bottom: 43px;
+  overflow: hidden;
+  position: relative;
 
   .container-width {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    z-index: 1;
+  }
+  .container {
+    z-index: 1;
+    position: relative;
   }
 }
+
+.tab__btn {
+  padding: 11px 45px;
+  
+  &:not(.active) {
+    background: #FFFFFF;
+    color: $primary;
+  }
+}
+
+.hidden-block {
+  display: none !important;
+}
+
+.tab_item.show {
+  .hidden-block {
+    display: block !important;
+  }
+}
+
 
 @media (max-width: 767.98px) {
   section.wrapper-tabs {

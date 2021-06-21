@@ -4,11 +4,14 @@ import 'popper.js/dist/popper.min';
 import 'owl.carousel/dist/owl.carousel';
 import '@fancyapps/fancybox/dist/jquery.fancybox.min';
 
+$(function(){
+    $(".wrapper-tabs .tab").click(function() {
+        $(".wrapper-tabs .tab").removeClass("active").eq($(this).index()).addClass("active");
+        $(".tab_item").hide().eq($(this).index()).fadeIn();
+    }).eq(0).addClass("active");
+})
 
-$(".wrapper-tabs .tab").click(function() {
-    $(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-    $(".tab_item").hide().eq($(this).index()).fadeIn();
-}).eq(0).addClass("active");
+
 
 $('.owl-carousel-slider').owlCarousel({
     loop:true,
@@ -25,13 +28,6 @@ $('.owl-carousel-team').owlCarousel({
     dots:false,
     autoHeight:true,
 })
-
-// $('.owl-carousel-photo').owlCarousel({
-//     loop:true,
-//     nav:true,
-//     items:1,
-//     dots:false,
-// })
 
 $(function() {
     var owl = $('.owl-carousel-photo'),
@@ -62,4 +58,8 @@ $(function() {
             }
         }
     });
-});
+})
+
+$('.wrapper-tabs__btn').click(function () {
+    $(this).parent().parent().toggleClass('show')
+})
