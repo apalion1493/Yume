@@ -1,0 +1,9 @@
+<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:multiply">
+<rect width="21" height="21" rx="2" fill="#3C64B1"/>
+</g>
+<g style="mix-blend-mode:multiply">
+<rect x="14" y="14" width="21" height="21" rx="2" fill="#3DACE3"/>
+</g>
+<path d="M7 21V23C7 25.7614 9.23858 28 12 28H14" stroke="#3C64B1"/>
+</svg>
