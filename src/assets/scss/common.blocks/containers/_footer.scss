@@ -90,6 +90,10 @@
   color: #FCFCFC;
   display: block;
   margin-bottom: 16px;
+
+  &:hover {
+    color: #FCFCFC;
+  }
 }
 
 @media (min-width: 768px) {
