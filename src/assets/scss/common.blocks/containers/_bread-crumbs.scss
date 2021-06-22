@@ -24,3 +24,14 @@
     padding-right: 15px;
   }
 }
+
+@media (max-width: 767.98px) { 
+  .breadcrumb {
+    display: none;
+  }
+
+  .bread-crumbs {
+    padding-top: 26px;
+    padding-bottom: 0;
+  }
+}
