@@ -190,6 +190,14 @@
   display: block;
 }
 
+.look-icon {
+  background: url("../img/look-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
 @media (max-width: 767.98px) {
   .yume-logo {
     width: 73px;

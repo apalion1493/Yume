@@ -75,6 +75,10 @@ section {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1360px;
   }
+
+  .content-container {
+    max-width: 1141px;
+  }
 }
 
 @media (max-width: 1199.98px) { 
@@ -93,3 +97,5 @@ section {
     padding-top: 51px;
   }
 }
+
+

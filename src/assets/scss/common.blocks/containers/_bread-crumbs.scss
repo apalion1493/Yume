@@ -1,0 +1,26 @@
+.bread-crumbs {
+  padding-top: 36px;
+  padding-bottom: 35px;
+
+  .breadcrumb {
+    background: initial;
+    margin-bottom: 0;
+    padding: 0;
+
+    a, .breadcrumb-item {
+      color: #959595;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  .breadcrumb-item+.breadcrumb-item {
+    padding-left: 15px;
+  }
+
+  .breadcrumb-item+.breadcrumb-item::before {
+    color: #959595;
+    padding-right: 15px;
+  }
+}

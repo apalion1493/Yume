@@ -24,6 +24,9 @@
 @import "common.blocks/containers/our-approach";
 @import "common.blocks/containers/first-slide";
 @import "common.blocks/containers/service-table";
+@import "common.blocks/containers/blog-list";
+@import "common.blocks/containers/bread-crumbs";
+@import "common.blocks/containers/page-navigation";
 
 //BLOCKS
 @import "common.blocks/block/burger";
@@ -37,6 +40,8 @@
 @import "common.blocks/block/tab_item";
 @import "common.blocks/block/dropdown-menu";
 @import "common.blocks/block/modal";
+@import "common.blocks/block/card-blog";
+@import "common.blocks/block/pagination";
 
 //main styles
 @import "common.blocks/utils/common";
