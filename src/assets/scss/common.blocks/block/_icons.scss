@@ -198,6 +198,14 @@
   display: block;
 }
 
+.look-icon__grey {
+  background: url("../img/look-icon__grey.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
 .whatsapp-logo {
   background: url("../img/whatsapp-logo.svg") no-repeat center;
   background-size: 100% auto;
@@ -231,10 +239,34 @@
 }
 
 .vc-ru_logo {
-  background: url("../img/vc-ru_logo.png") no-repeat center;
+  background: url("../img/vc-ru_logo.svg") no-repeat center;
   background-size: 100% auto;
-  width: 27px;
+  width: 24px;
   height: 24px;
+  display: block;
+}
+
+.vc-ru-white-icon {
+  background: url("../img/vc-ru-white-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.quotes-icon {
+  background: url("../img/quotes-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 22px;
+  height: 17px;
+  display: block;
+}
+
+.vc-ru-logo {
+  background: url("../img/vc-ru-logo.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 26px;
+  height: 26px;
   display: block;
 }
 

@@ -19,19 +19,22 @@
     margin-right: 3px;
     margin-bottom: 4px;
 
+    .page-link {
+      border: 0;
+    }
+
     &:hover {
       .page-link {
         transition: 0.2s;
         background: #4E64B4;
-        border-color: #4E64B4;
         color: #FFFFFF;
       }
     }
 
     &.active {
+      background: #4E64B4;
       .page-link {
-        background: #4E64B4;
-        border-color: #4E64B4;
+        background: initial;
       }
     }
   }

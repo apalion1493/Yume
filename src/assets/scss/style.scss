@@ -15,6 +15,9 @@
 //FONTS
 @import "common.blocks/utils/fonts";
 
+//OTHER STYLE
+@import "common.blocks/utils/other";
+
 //CONTAINERS
 @import "common.blocks/containers/footer";
 @import "common.blocks/containers/section-feedback";
@@ -29,6 +32,7 @@
 @import "common.blocks/containers/page-navigation";
 @import "common.blocks/containers/portfolio";
 @import "common.blocks/containers/contacts";
+@import "common.blocks/containers/article-section";
 
 //BLOCKS
 @import "common.blocks/block/burger";
@@ -44,6 +48,9 @@
 @import "common.blocks/block/modal";
 @import "common.blocks/block/card-blog";
 @import "common.blocks/block/pagination";
+@import "common.blocks/block/article-sidebar";
+@import "common.blocks/block/article-link";
+@import "common.blocks/block/article-comment";
 
 //main styles
 @import "common.blocks/utils/common";

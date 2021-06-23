@@ -1,0 +1,126 @@
+.article-section {
+  padding-top: 0;
+  padding-bottom: 73px;
+}
+
+.article {
+  p, .article-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    margin-bottom: 23px;
+  }
+}
+
+.article__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__header-img-info {
+  margin-top: 14px;
+  margin-bottom: 42px;
+  padding-bottom: 0 !important;
+}
+
+.article__title {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #363F6A;
+  display: block;
+  margin-bottom: 36px;
+}
+
+.article__footnote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 503px;
+  margin: 13px auto 36px;
+
+  span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #555555;
+    margin-top: 7px;
+  }
+}
+
+.article__img {
+  max-width: 601px;
+  display: flex;
+  flex-direction: column;
+  margin: 18px auto 33px;
+
+  img {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+.article__listLinks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 42px;
+  margin-top: 18px;
+}
+
+.article__listLinks-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #333333;
+  font-family: 'Mulish', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+  .article__header-img-info {
+    margin-bottom: 17px;
+  }
+
+  .card-blog__info-time span {
+    display: none;
+  }
+
+  .article__title {
+    margin-bottom: 30px;
+  }
+
+  .article .article-text, .article p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 14px;
+  }
+
+  .article__footnote {
+    margin-bottom: 14px;
+  }
+
+  .article__footnote span {
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 23px;
+  }
+
+  .article__img {
+    margin-top: 10px;
+    margin-bottom: 13px;
+  }
+  
+  .article__listLinks {
+    display: none;
+  }
+}

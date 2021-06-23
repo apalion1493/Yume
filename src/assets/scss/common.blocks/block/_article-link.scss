@@ -1,0 +1,39 @@
+.article-link {
+  display: flex;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.article-link__body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+}
+
+.article-link__img {
+  border-radius: 10px;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 21px;
+}
+
+.article-link__text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.article-link__counter {
+  font-size: 14px;
+  line-height: 14px;
+  color: #777777;
+  font-family: 'Graphik LCG', sans-serif;
+  display: flex;
+  align-items: center;
+}
