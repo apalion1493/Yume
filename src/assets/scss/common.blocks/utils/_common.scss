@@ -2,6 +2,12 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+* {
+  &:focus {
+    outline: none !important;
+  }
+}
+
 .app {
   min-height: 100vh;
   display: flex;
@@ -105,12 +111,20 @@ section {
 }
 
 @media (min-width: 1200px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1360px;
-  }
-
   .content-container {
     max-width: 1141px;
+  }
+
+  .container-width {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+  }
+  .container {
+    z-index: 1;
+    position: relative;
   }
 }
 

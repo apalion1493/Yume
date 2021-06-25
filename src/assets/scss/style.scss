@@ -33,6 +33,8 @@
 @import "common.blocks/containers/portfolio";
 @import "common.blocks/containers/contacts";
 @import "common.blocks/containers/article-section";
+@import "common.blocks/containers/faq-section";
+@import "common.blocks/containers/offer";
 
 //BLOCKS
 @import "common.blocks/block/burger";
@@ -51,6 +53,8 @@
 @import "common.blocks/block/article-sidebar";
 @import "common.blocks/block/article-link";
 @import "common.blocks/block/article-comment";
+@import "common.blocks/block/accordion";
+@import "common.blocks/block/block-consultations";
 
 //main styles
 @import "common.blocks/utils/common";
