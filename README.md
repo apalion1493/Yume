@@ -6,3 +6,5 @@ https://apalion1493.github.io/Yume/build/Portfolio.html
 https://apalion1493.github.io/Yume/build/Contacts.html
 
 https://apalion1493.github.io/Yume/build/Blog.html
+
+https://apalion1493.github.io/Yume/build/Article.html
