@@ -95,7 +95,15 @@
         </div>
     </section>
     <section class="section first-slide">
-        <img class="first-slide__bg" src="assets/img/bg-first-slide.jpg" alt="">
+        <video class="w-100 first-slide__bg" poster="video/duel.jpg" autoplay muted="muted" loop>
+            <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/ogg; codecs="theora, vorbis"'>
+            <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/webm; codecs="vp8, vorbis"'>
+            Тег video не поддерживается вашим браузером.
+            <a href="assets/img/media/YUME_Showreel_11s.mp4">Скачайте видео</a>.
+        </video>
+<!--        <img class="first-slide__bg" src="assets/img/bg-first-slide.jpg" alt="">-->
+
         <div class="first-slide__shadow"></div>
         <div class="first-slide__patterns">
             <div class="first-slide__pattern-arrow first-slide__pattern-arrow-1"></div>
@@ -118,7 +126,7 @@
                             <p class="first-slide__text mb">Организуем, снимаем и транслируем онлайн мероприятия для любой бизнес-задачи под ключ</p>
                             <div class="first-slide__btnGroup">
                                 <button class="btn btn-info first-slide__btn first-slide__btn-1" type="button" data-toggle="modal" data-target="#priceModal">узнать стоимость</button>
-                                <button class="btn btn-light first-slide__btn first-slide__btn-2">Посмотреть SHOWreel</button>
+                                <button class="btn btn-light first-slide__btn first-slide__btn-2" data-toggle="modal" data-target="#videoModal">Посмотреть SHOWreel</button>
                             </div>
                         </div>
                         <div class="first-slide__content">
@@ -126,7 +134,7 @@
                             <p class="first-slide__text mb">Организуем, снимаем и транслируем онлайн мероприятия для любой бизнес-задачи под ключ</p>
                             <div class="first-slide__btnGroup">
                                 <button class="btn btn-info first-slide__btn first-slide__btn-1" type="button" data-toggle="modal" data-target="#priceModal">узнать стоимость</button>
-                                <button class="btn btn-light first-slide__btn first-slide__btn-2">Посмотреть SHOWreel</button>
+                                <button class="btn btn-light first-slide__btn first-slide__btn-2" data-toggle="modal" data-target="#videoModal">Посмотреть SHOWreel</button>
                             </div>
                         </div>
                     </div>
@@ -989,7 +997,6 @@
     </footer>
 </main>
 
-
 <div class="modal fade" id="priceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -1038,6 +1045,24 @@
                     </div>
                     <button type="submit" class="btn btn-secondary modal__btn">Отправить</button>
                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                <span class="close-icon" aria-hidden="true"></span>
+            </button>
+            <div class="modal-body p-3 pt-5">
+                <video class="w-100" controls="controls" poster="video/duel.jpg">
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/ogg; codecs="theora, vorbis"'>
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                    Тег video не поддерживается вашим браузером.
+                    <a href="assets/img/media/YUME_Showreel_11s.mp4">Скачайте видео</a>.
+                </video>
             </div>
         </div>
     </div>

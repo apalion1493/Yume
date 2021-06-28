@@ -123,7 +123,7 @@
                         <h1 class="h1 first-slide-insert__title">Организация шоу, фестивалей и церемоний</h1>
                         <p class="first-slide-insert__text">Более 100 готовых решений для мероприятий любого масштаба по всей России</p>
 
-                        <a class="btn btn-light first-slide-insert__btn" href="#">Посмотреть SHOWreel</a>
+                        <a class="btn btn-light first-slide-insert__btn" href="#" data-toggle="modal" data-target="#videoModal">Посмотреть SHOWreel</a>
                     </div>
                 </div>
                 <div class="col-xl-4">
@@ -925,6 +925,24 @@
                     </div>
                     <button type="submit" class="btn btn-secondary modal__btn">Отправить</button>
                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                <span class="close-icon" aria-hidden="true"></span>
+            </button>
+            <div class="modal-body p-3 pt-5">
+                <video class="w-100" controls="controls" poster="video/duel.jpg">
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/ogg; codecs="theora, vorbis"'>
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                    Тег video не поддерживается вашим браузером.
+                    <a href="assets/img/media/YUME_Showreel_11s.mp4">Скачайте видео</a>.
+                </video>
             </div>
         </div>
     </div>
