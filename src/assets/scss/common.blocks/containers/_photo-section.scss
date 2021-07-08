@@ -45,10 +45,13 @@ section.photo-section {
   }
 }
 
-.portfolio .photo-section__list {
+.photo-section__list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.portfolio .photo-section__list {
 
   .photo-section__block {
     width: 25%;
