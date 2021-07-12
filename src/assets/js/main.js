@@ -1,4 +1,4 @@
-import './config/jqueryLoad';
+// import './config/jqueryLoad';
 import 'bootstrap/dist/js/bootstrap.min';
 import 'popper.js/dist/popper.min';
 import 'owl.carousel/dist/owl.carousel';
