@@ -113,6 +113,12 @@
   display: none;
 }
 
+.section-color-bg {
+  .text-card__icon-circle {
+    background: #FFFFFF;
+  }
+}
+
 @media (max-width: 767.98px) {
   .text-card {
     padding: 12px 0 0;
@@ -169,6 +175,14 @@
 
     .text-card__icon {
       margin-left: 0;
+    }
+  }
+
+  .text-card_v2 {
+    width: 100%;
+
+    .text-card__text {
+      max-width: 100%;
     }
   }
 }

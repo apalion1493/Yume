@@ -35,6 +35,9 @@
 @import "common.blocks/containers/article-section";
 @import "common.blocks/containers/faq-section";
 @import "common.blocks/containers/offer";
+@import "common.blocks/containers/prices-section";
+@import "common.blocks/containers/possibilities-section";
+@import "common.blocks/containers/benefits-online-conferences";
 
 //BLOCKS
 @import "common.blocks/block/burger";
@@ -55,6 +58,7 @@
 @import "common.blocks/block/article-comment";
 @import "common.blocks/block/accordion";
 @import "common.blocks/block/block-consultations";
+@import "common.blocks/block/media-block-1";
 
 //main styles
 @import "common.blocks/utils/common";

@@ -1,0 +1,70 @@
+.possibilities-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.possibilities-section__title {
+  text-align: center;
+  margin-bottom: 17px;
+  display: block;
+}
+
+.possibilities-section__subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #3C64B1;
+  max-width: 854px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 77px;
+}
+
+.possibilities-section__block-title {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.possibilities-section__block {
+  margin-bottom: 38px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.possibilities-section__block-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+  margin-bottom: 0;
+}
+
+.possibilities-section__block-list {
+
+  li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .possibilities-section__block:last-child {
+    margin-bottom: 38px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .possibilities-section__subtitle {
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 35px;
+  }
+}

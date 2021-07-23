@@ -1,0 +1,22 @@
+.benefits-online-conferences {
+  padding-top: 46px;
+  padding-bottom: 50px;
+
+  .text-card__text {
+    max-width: 100%;
+  }
+}
+
+.benefits-online-conferences__title {
+  margin-bottom: 62px;
+}
+
+@media (max-width: 767.98px) {
+  .benefits-online-conferences {
+
+    .text-card {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
