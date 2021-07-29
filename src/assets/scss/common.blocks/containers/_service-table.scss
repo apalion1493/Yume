@@ -22,6 +22,28 @@ section.service-table {
   }
 }
 
+section.service-table_threeColumn {
+  .row > div:nth-child(3n+3) .text-card {
+    &:before, &:after {
+      display: none;
+    }
+  }
+
+  .row > div:nth-child(4n+4) .text-card {
+    &:before, &:after {
+      display: block;
+    }
+  }
+
+  .wrapper-line__line-1 {
+    left: 33.3%;
+  }
+
+  .wrapper-line__line-2 {
+    left: 66.6%;
+  }
+}
+
 .service-table__button {
   text-transform: uppercase;
   padding: 11px 24px;

@@ -105,12 +105,12 @@
 
 .plus-hidden {
   &:before, &:after {
-    display: none;
+    display: none !important;
   }
 }
 
 .plus-bottom-hidden:after {
-  display: none;
+  display: none !important;
 }
 
 .section-color-bg {
