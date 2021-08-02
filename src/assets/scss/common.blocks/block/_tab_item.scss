@@ -2,7 +2,7 @@
   flex-wrap: wrap;
   position: relative;
   z-index: 1;
-  width: 100%;
+  width: calc(100% + 4px);
 
   .row {
     margin-left: 0;

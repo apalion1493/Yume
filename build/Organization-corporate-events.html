@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yume</title>
+    <meta name="description" content="Организуем, снимаем и транслируем онлайн мероприятия для любой бизнес-задачи под ключ" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<main class="app" id="app">
+    <section class="section header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand yume-logo" href="index.html"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse in" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Услуги
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="dropdown-menu__wrapper">
+                                            <div class="dropdown-menu__column">
+                                                <span class="dropdown-menu__title">Оффлайн</span>
+                                                <ul class="dropdown-menu__list">
+                                                    <li class="dropdown-menu__item">
+                                                        <a href="#">Конференции</a>
+                                                    </li>
+                                                    <li class="dropdown-menu__item">
+                                                        <a href="#">Презентаци продукта</a>
+                                                    </li>
+                                                    <li class="dropdown-menu__item">
+                                                        <a href="#">Организация обучения</a>
+                                                    </li>
+                                                    <li class="dropdown-menu__item">
+                                                        <a href="#">Шоу фестивали</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-menu__column">
+                                                <span class="dropdown-menu__title">онлайн</span>
+                                                <ul class="dropdown-menu__list">
+                                                    <li class="dropdown-menu__item">
+                                                        <a href="#">Конференции</a>
+                                                    </li>
+                                                    <li class="dropdown-menu__item">
+                                                        <a href="#">Презентаци продукта</a>
+                                                    </li>
+                                                    <li class="dropdown-menu__item">
+                                                        <a href="#">Организация обучения</a>
+                                                    </li>
+                                                    <li class="dropdown-menu__item">
+                                                        <a href="#">Шоу фестивали</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Portfolio.html">Наши работы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Blog.html">Блог</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contacts.html">Контакты</a>
+                                </li>
+                                <li class="nav-item d-block d-lg-none">
+                                    <a href="#" class="btn btn-outline-primary header__btn">Презентация</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary ml-auto mr-xl-5 mr-3 header__btn d-none d-lg-block">Презентация</a>
+                        <a href="tel:+79684297045" class="header__number">+7 968 429-70-45</a>
+                        <div class="header__social">
+                            <a class="email-icon d-none d-md-block" href="#"></a>
+                            <a class="telegram-icon" href="#"></a>
+                            <a class="whatsapp-icon" href="#"></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section first-slide-insert">
+        <div class="first-slide-insert__shadow" style="background-image: url(assets/img/insert-bg-7.jpg)"></div>
+        <div class="first-slide__patterns">
+            <div class="first-slide__pattern-arrow first-slide__pattern-arrow-1 first-slide__pattern-arrow-1-inset"></div>
+            <div class="first-slide__pattern-arrow first-slide__pattern-arrow-2"></div>
+            <div class="first-slide__pattern-arrow first-slide__pattern-arrow-3"></div>
+            <div class="first-slide__pattern-dots first-slide__pattern-dots-3"></div>
+        </div>
+        <div class="container container-width">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb first-slide-insert__breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="#">Услуги</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Организация шоу, фестивалей и церемоний</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-xl-8 d-flex">
+                    <div class="first-slide__leftBar">
+                        <div class="first-slide__leftBar-circle"><a class="instagram-white-icon" href="#"></a></div>
+                        <div class="first-slide__leftBar-circle"><a class="youtube-white-icon" href="#"></a></div>
+                        <div class="first-slide__leftBar-circle"><a class="vc-ru-white-icon" href="#"></a></div>
+                    </div>
+                    <div class="first-slide-insert__wrapper">
+                        <h1 class="h1 first-slide-insert__title">Организация корпоративных мероприятий</h1>
+                        <p class="first-slide-insert__text">Более 100 готовых решений для мероприятий любого масштаба по всей России</p>
+
+                        <a class="btn btn-light first-slide-insert__btn" href="#" data-toggle="modal" data-target="#videoModal">Посмотреть SHOWreel</a>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="block-consultations">
+                        <span class="block-consultations__title">ХОТИТЕ ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ?</span>
+                        <p class="block-consultations__text">Оставьте свой номер и наш менеджер свяжется с вами в течении 15 минут.</p>
+                        <form action="" class="block-consultations__form">
+                            <div class="form-group">
+                                <input type="text" class="form-control input" placeholder="Ваш телефон">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                <label class="form-check-label" for="exampleCheck3">Согласен на обработку личных данных</label>
+                            </div>
+                            <button type="submit" class="btn btn-secondary mx-auto block-consultations__btn">узнать стоимость</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section service-table service-table_threeColumn service-table_insert">
+        <div class="container">
+            <div class="wrapper-line">
+                <div class="wrapper-line__line wrapper-line__line-1"></div>
+                <div class="wrapper-line__line wrapper-line__line-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2 text-center d-block service-table__title text-center">Мы организовываем:</h2>
+                    <h3 class="service-table__subTitle">По типу событий</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-6 mx-auto">
+                    <div class="text-card plus-top-hidden">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="quiz"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-center">Квизы</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-6 mx-auto">
+                    <div class="text-card plus-top-hidden">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="team "></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-center">
+                                Тимбилдинги <br>
+                                <span>творческие, психологические</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-6 mx-auto">
+                    <div class="text-card plus-top-hidden">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="tent"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-center">Буткемпы</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-6 mx-auto">
+                    <div class="text-card plus-top-hidden">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="gitar"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-center">Джемы</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-6 mx-auto">
+                    <div class="text-card plus-top-hidden">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="release"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-center">Квесты</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-6 mx-auto">
+                    <div class="text-card plus-top-hidden">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="ping-pong"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-center">Спортивные мероприятия</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="service-table__wrapper">
+                        <h3 class="service-table__subTitle">По формату</h3>
+                        <div class="text-card plus-hidden text-card_horizontal justify-content-start service-table__wrapper-pl">
+                            <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="workplace"></i>
+                            </span>
+                            </div>
+                            <div class="text-card__body">
+                                <span class="text-card__title">На рабочем месте</span>
+                            </div>
+                        </div>
+                        <div class="text-card plus-hidden text-card_horizontal justify-content-start service-table__wrapper-pl">
+                            <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="cargo-truck"></i>
+                            </span>
+                            </div>
+                            <div class="text-card__body">
+                                <span class="text-card__title">Выездные</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="service-table__wrapper">
+                        <h3 class="service-table__subTitle">По длительности</h3>
+                        <div class="text-card plus-hidden text-card_horizontal justify-content-start service-table__wrapper-pl">
+                            <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="time-left"></i>
+                            </span>
+                            </div>
+                            <div class="text-card__body">
+                                <span class="text-card__title">Однодневные </span>
+                                <span class="text-card__color-text">от 5 часов</span>
+                            </div>
+                        </div>
+                        <div class="text-card plus-hidden text-card_horizontal justify-content-start service-table__wrapper-pl">
+                            <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="calendar"></i>
+                            </span>
+                            </div>
+                            <div class="text-card__body">
+                                <span class="text-card__title">Многодневные</span>
+                                <span class="text-card__color-text">от 3 дней</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section goals-corporate-events">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2 goals-corporate-events__title">Цели проведения корпоративных мероприятий</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="goals-corporate-events__list">
+                        <li>
+                            <div class="media-block-2">
+                                <div class="media-block-2__img">
+                                    <i class="discussion-icon"></i>
+                                </div>
+                                <div class="media-block-2__content">
+                                    <p class="media-block-2__text">Улучшение сотрудничества и коммуникации внутри компании.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media-block-2">
+                                <div class="media-block-2__img">
+                                    <i class="goal-icon"></i>
+                                </div>
+                                <div class="media-block-2__content">
+                                    <p class="media-block-2__text">Определение новых точек роста в короткие сроки.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media-block-2">
+                                <div class="media-block-2__img">
+                                    <i class="evaluate"></i>
+                                </div>
+                                <div class="media-block-2__content">
+                                    <p class="media-block-2__text">Диагностика и восстановление психоэмоционального комфорта в коллективе. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media-block-2">
+                                <div class="media-block-2__img">
+                                    <i class="diamond"></i>
+                                </div>
+                                <div class="media-block-2__content">
+                                    <p class="media-block-2__text">Развитие корпоративных ценностей.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="goals-corporate-events__list mb-0">
+                        <li>
+                            <div class="media-block-2">
+                                <div class="media-block-2__img">
+                                    <i class="hand-shake"></i>
+                                </div>
+                                <div class="media-block-2__content">
+                                    <p class="media-block-2__text">Разрешение межличностных конфликтов персонала.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media-block-2">
+                                <div class="media-block-2__img">
+                                    <i class="man-succesing"></i>
+                                </div>
+                                <div class="media-block-2__content">
+                                    <p class="media-block-2__text">Мотивация сотрудников к профессиональному росту и добросовестной работе.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media-block-2">
+                                <div class="media-block-2__img">
+                                    <i class="leadership"></i>
+                                </div>
+                                <div class="media-block-2__content">
+                                    <p class="media-block-2__text">Выявление лидеров, оценка общего настроя сотрудников.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section stages-work">
+        <div class="container-fluid">
+            <div class="stages-work__container stages-work__container-1">
+                <span>01</span>
+            </div>
+            <div class="stages-work__container stages-work__container-2">
+                <span>02</span>
+            </div>
+            <div class="stages-work__container stages-work__container-3">
+                <span>03</span>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2 stages-work__title">Этапы работ</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="stages-work__wrapper stages-work__wrapper-1">
+                        <span class="stages-work__wrapper-num">01</span>
+                        <span class="stages-work__subTitle">Разработка</span>
+                        <ul class="list-steps">
+                            <li class="list-steps__item">
+                                <span>01</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Изучение запроса, формирование ТЗ
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Получаем бриф от клиента, на основании которого формируем экспертное видение задачи и согласовываем доработанное ТЗ.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>02</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Определение цели и формата мероприятия
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Обозначаем цели организации корпоративного ивента, т.е. чего хочет достичь клиент, какие задачи планируется решить. Выбираем оптимальный формат, утверждаем его.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>03</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Формирование КП
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Объясняем, как предлагаемый формат ивента решит поставленные задачи. Оговариваем, какие специалисты и инструменты будут задействованы, сколько это займет времени. Расписываем, что войдет в стоимость «под ключ». Утверждаем коммерческое предложение.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>04</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Разработка методологической структуры
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Подбираем наиболее компетентного специалиста для выбранного формата корпоративного мероприятия, поэтапно разрабатываем методологию программы, формируем оригинальный сценарий (линейный или вертикальный). </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>05</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Разработка сеттинга мероприятия
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Выбираем тему корпоративного ивента. В соответствии со сценарием разделяем всех участников на группы. Проводим брифинг с лидерами групп или со всеми участниками, на котором знакомим их с условиями корпоратива.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stages-work__wrapper stages-work__wrapper-2">
+                        <span class="stages-work__wrapper-num">02</span>
+                        <span class="stages-work__subTitle">Подготовка</span>
+                        <ul class="list-steps">
+                            <li class="list-steps__item">
+                                <span>01</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Подбор площадки
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Арендуем подходящую площадку от наших партнеров (загородную или в черте города). </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>02</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Оформление площадки, организация логистики
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Оформляем площадку под концепцию корпоративного мероприятия. Заранее устанавливаем точки расположения камер (если планируется видеосъемка), пишем расписание, детально продумываем реализацию видеосъемки. </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>03</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Интертеймент
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Если ивент предполагает развлекательную программу, продумываем и утверждаем интертеймент: музыканты, артисты, шоу, праздник, вечеринка и т.д.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>04</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Утверждение трансферных, кейтеринговых, сервисных услуг
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Организовываем транспорт для доставки участников к площадке, где будет проводиться корпоративное мероприятие.
+                                            <br><br>
+                                            Составляем меню в тему ивента. Подбираем вкусные, оригинальные блюда. Продумываем и организовываем их подачу.
+                                            <br><br>
+                                            По желанию, организовываем дополнительный сервис (баня, катерная/вертолетная прогулка и т.п.).
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stages-work__wrapper stages-work__wrapper-3">
+                        <span class="stages-work__wrapper-num">03</span>
+                        <span class="stages-work__subTitle">Премьера</span>
+                        <ul class="list-steps">
+                            <li class="list-steps__item">
+                                <span>01</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Сбор и трансфер участников
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Встречаем в оговоренном месте всех участников, доставляем до места проведения корпоративного ивента.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>02</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Начало и проведение ивента
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>Проводим корпоратив по утвержденному сценарию.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>03</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Доставка участников до точки разъезда
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-steps__item">
+                                <span>03</span>
+                                <div class="list-steps__collapse">
+                                    <button class="list-steps__collapse-btn">
+                                        Аналитика прошедшего мероприятия
+                                        <i class="accordion-arrow"></i>
+                                    </button>
+                                    <div class="list-steps__collapse-body">
+                                        <p>В качестве дополнительной услуги можем провести внутриколлективный опрос или голосование, целенаправленное интервью заранее выбранных сотрудников по согласованному списку вопросов, подведение итогов (для обучающих и дискуссионных форматов).</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-color-bg overflow-hidden benefits-online-conferences">
+        <div class="container-width">
+            <div class="row">
+                <div class="col-12">
+                    <span class="h2 text-center d-block benefits-online-conferences__title">Наши преимущества</span>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mx-auto">
+                    <div class="text-card">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="affiliate-marketing"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-md-center">Широкая партнерская сеть</span>
+                            <p class="text-card__text">Специалисты по работе с персоналом и коллективами, оптимизаторы, коучи, ведущие и др.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mx-auto">
+                    <div class="text-card">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="map-icon"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-md-center">Трансферные и кейтеринговые партнеры по всей России</span>
+                            <p class="text-card__text">Организуем доставку участников мероприятия (даже в большом количестве) в любой город России.
+                                <br><br>
+                                Индивидуальные предложения от партнеров в сфере кейтеринговых и сервисных услуг. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mx-auto">
+                    <div class="text-card">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="video-player"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-md-center">Продакшн</span>
+                            <p class="text-card__text">Снимем и смонтируем отчетный ролик по прошедшему ивенту на высочайшем уровне. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mx-auto">
+                    <div class="text-card">
+                        <div class="text-card__icon">
+                            <span class="text-card__icon-circle">
+                                <i class="to-do-list"></i>
+                            </span>
+                        </div>
+                        <div class="text-card__body">
+                            <span class="text-card__title align-self-center text-md-center">Более 100 готовых решений</span>
+                            <p class="text-card__text">Готовы в максимально короткий срок организовать корпоратив любого формата на основе готового решения.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section FAQ">
+        <div class="container content-container">
+            <div class="row">
+                <div class="col-12">
+                    <span class="h2 text-center d-block FAQ__title">Часто задаваемые вопросы</span>
+                    <div id="accordion" class="main-accordion">
+                        <button class="main-accordion__btn">Максимум на сколько человек вы можете организовать корпоративный event?<i class="accordion-arrow ml-auto"></i></button>
+                        <div class="main-accordion__body">
+                            <div class="main-accordion__body-block">
+                                <p>Готовы организовать интересное, веселое и комфортное мероприятие с количеством участников до 300 человек. </p>
+                            </div>
+                        </div>
+
+                        <button class="main-accordion__btn">Какие дополнительные услуги можно заказать?<i class="accordion-arrow ml-auto"></i></button>
+                        <div class="main-accordion__body">
+                            <div class="main-accordion__body-block">
+                                <ul class="pl-4 mt-3">
+                                    <li class="mb-3">
+                                        <p>Видеосъемка всего мероприятия, монтажные ролики, презентации. </p>
+                                    </li>
+                                    <li class="mb-3">
+                                        <p>Подготовка графики, презентационного материала. </p>
+                                    </li>
+                                    <li>
+                                        <p>Организация интертеймента (развлекательная программа). </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <button class="main-accordion__btn">Что важно учитывать при организации корпоративного ивента?<i class="accordion-arrow ml-auto"></i></button>
+                        <div class="main-accordion__body">
+                            <div class="main-accordion__body-block">
+                                <p>Многие планируют корпоративное мероприятие на выходные дни, поэтому сотрудники воспринимают его как лишнюю трату времени. Лучше провести ивент в счет рабочего дня.
+                                    <br><br>
+                                    Не стоит подписывать на корпоратив всех сотрудников по умолчанию. Проявите личный интерес и спросите каждого, хочет ли он присутствовать на нем.
+                                    <br><br>
+                                    Проведите внутриколлективный опрос о предпочтительном формате проведения ивента. Это поможет в том числе получить информацию о том, какие проблемы и сложности видят сотрудники.
+                                    <br><br>
+                                    Лучше доверить организацию корпоратива агентству, работающему «под ключ». Не нужно будет искать несколько подрядчиков. Сводится к нулю риск что-то упустить или забыть.
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="main-accordion__btn">Что влияет на бюджет корпоративного мероприятия?<i class="accordion-arrow ml-auto"></i></button>
+                        <div class="main-accordion__body">
+                            <div class="main-accordion__body-block">
+                                <p>На бюджет сильно влияет количество приглашенных специалистов по оптимизации или работе с персоналом, коучей, преподавателей и т.д.
+                                    <br><br>
+                                    Также бюджет организации корпоратива зависит от местонахождения площадки (в черте города или за городом) и ее размера (на какое количество участников она рассчитана).
+                                    <br><br>
+                                    Увеличивает бюджет объем сопутствующих трансферных, кейтеринговых и сервисных услуг.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-feedback">
+        <div class="section-feedback__bg">
+            <div class="section-feedback__bg-1"></div>
+            <div class="section-feedback__bg-2"></div>
+            <div class="section-feedback__bg-3"></div>
+            <div class="section-feedback__bg-4"></div>
+            <div class="section-feedback__bg-5"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-feedback__wrapper">
+                        <p class="section-feedback__text-1">Нужна помощь?</p>
+                        <span class="section-feedback__title">Обсудите детали с нами</span>
+                        <p class="section-feedback__text-2 mb-4 pb-2">Оставьте заявку в окне справа и мы с вами свяжемся.</p>
+                        <p class="section-feedback__text-2 mb-4 pb-2">или свяжитесь напрямую</p>
+                        <a href="tel:+79684297045" class="section-feedback__numLink">+7 968 429-70-45</a>
+                        <a href="#" class="section-feedback__link">tihon.yumeprod@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="section-feedback__form">
+                        <div class="section-feedback__form-header">
+                            <span>Связаться с менеджером</span>
+                        </div>
+                        <form class="section-feedback__form-content">
+                            <div class="form-group">
+                                <input type="text" class="form-control input section-feedback__input" id="exampleInputName" placeholder="Ваше имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input section-feedback__input" id="exampleInputTel" placeholder="Ваш телефон">
+                            </div>
+                            <button type="submit" class="btn btn-secondary section-feedback__form-btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div class="footer-collapse">
+                            <a data-toggle="collapse" href="#footerList1" role="button" aria-expanded="false" aria-controls="collapseExample" class="footer-collapse__title">Услуги оффлайн</a>
+                            <ul id="footerList1" class="footer-collapse__list collapse">
+                                <li class="footer-collapse__item"><a href="#">Организация  конференций</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация презентаций услуги</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация обучения,</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация церемоний, шоу</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация корпоративных мероприятий</a></li>
+                                <li class="footer-collapse__item"><a href="#">Съемка корпоративных фильмов</a></li>
+                                <li class="footer-collapse__item"><a href="#">Съемка обучающих курсов и роликов</a></li>
+                                <li class="footer-collapse__item"><a href="#">Съемка отчетных роликов и бэкстейджей</a></li>
+                                <li class="footer-collapse__item"><a href="#">Съемка для соц. сетей (youtebe/instagram)</a></li>
+                                <li class="footer-collapse__item"><a href="#">Съемка презентационных и имиджевых роликов</a></li>
+                                <li class="footer-collapse__item"><a href="#">Съемка рекламных роликов</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация и съемка интервью</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <div class="footer-collapse">
+                            <a data-toggle="collapse" href="#footerList2" role="button" aria-expanded="false" aria-controls="collapseExample" class="footer-collapse__title">Услуги онлайн</a>
+                            <ul id="footerList2" class="footer-collapse__list collapse">
+                                <li class="footer-collapse__item"><a href="#">Организация онлайн конференций</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация онлайн презентаций продукта</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация онлайн трансляций церемоний</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация онлайн трансляций
+                                    корпоративных мероприятий</a></li>
+                                <li class="footer-collapse__item"><a href="#">Прямые эфиры для соц.сетей</a></li>
+                                <li class="footer-collapse__item"><a href="#">Организация телемостов</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-collapse mt-md-4 pt-md-3">
+                            <a data-toggle="collapse" href="#footerList3" role="button" aria-expanded="false" aria-controls="collapseExample" class="footer-collapse__title">Меню</a>
+                            <ul id="footerList3" class="footer-collapse__list collapse">
+                                <li class="footer-collapse__item"><a href="#">Главная</a></li>
+                                <li class="footer-collapse__item"><a href="#">Наши работы</a></li>
+                                <li class="footer-collapse__item"><a href="#">Контакты</a></li>
+                                <li class="footer-collapse__item"><a href="#">Блог</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-column pl-lg-5">
+                        <span class="yume-logo__white md-0 mb-md-4 order-1 order-md-auto footer__mob-el footer__mt"></span>
+                        <p class="footer__text mb-0 order-2 order-md-auto footer__mob-el">Все права защищены. <br>
+                            Yume Production</p>
+                        <a href="tel:+79684297045" class="footer__phone mt-4 pt-2">+7 968 429-70-45</a>
+                        <a href="#" class="footer__text">tihon.yumeprod@gmail.com</a>
+                        <div class="d-flex mt-5 footer__social">
+                            <a href="#" class="instagram-logo-circle"></a>
+                            <a href="#" class="youtube-circle-logo ml-3"></a>
+                            <a href="#" class="vc-ru-logo ml-3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+
+<div class="modal fade" id="priceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                <span class="close-icon" aria-hidden="true"></span>
+            </button>
+            <div class="modal-body">
+                <span class="modal__title">Хотите узнать цену?</span>
+                <p class="modal__text mb-0">Отправьте нам свой телефон, и наш менеджер с вами свяжется. </p>
+                <form action="" class="modal__body-form">
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control modal__input input" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="text" class="form-control modal__input input" placeholder="Ваш телефон">
+                    </div>
+                    <div class="form-group form-check mb-5">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck2">Согласен на обработку личных данных</label>
+                    </div>
+                    <button type="submit" class="btn btn-secondary modal__btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="cooperationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                <span class="close-icon" aria-hidden="true"></span>
+            </button>
+            <div class="modal-body">
+                <span class="modal__title">Начать сотрудничество</span>
+                <p class="modal__text mb-0">Отправьте нам свой телефон, и наш менеджер с вами свяжется. </p>
+                <form action="" class="modal__body-form">
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control modal__input input" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="text" class="form-control modal__input input" placeholder="Ваш телефон">
+                    </div>
+                    <div class="form-group form-check mb-5">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                        <label class="form-check-label" for="exampleCheck2">Согласен на обработку личных данных</label>
+                    </div>
+                    <button type="submit" class="btn btn-secondary modal__btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                <span class="close-icon" aria-hidden="true"></span>
+            </button>
+            <div class="modal-body p-3 pt-5">
+                <video class="w-100" controls="controls" poster="video/duel.jpg">
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/ogg; codecs="theora, vorbis"'>
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="assets/img/media/YUME_Showreel_11s.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                    Тег video не поддерживается вашим браузером.
+                    <a href="assets/img/media/YUME_Showreel_11s.mp4">Скачайте видео</a>.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const acc = document.getElementsByClassName("main-accordion__btn");
+
+    for (let i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            let panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+<script>
+    const listCollapse = document.getElementsByClassName("list-steps__collapse-btn");
+
+    for (let i = 0; i < listCollapse.length; i++) {
+        listCollapse[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            this.parentNode.parentNode.classList.toggle("active");
+            let panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+<script src="assets/js/libs.min.js" type="module"></script>
+</body>
+</html>

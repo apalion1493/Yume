@@ -68,6 +68,27 @@ section.service-table_threeColumn {
   text-transform: uppercase;
 }
 
+.service-table__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .text-card__body {
+    min-width: 280px;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-table__wrapper-pl {
+    padding-left: 30% !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .service-table__wrapper {
+    align-items: center;
+  }
+}
+
 @media (max-width: 767.98px) {
   .service-table__button {
     margin-top: 10px;

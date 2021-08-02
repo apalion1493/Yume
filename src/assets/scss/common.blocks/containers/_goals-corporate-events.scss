@@ -1,0 +1,33 @@
+.goals-corporate-events {
+  background: rgba(230, 244, 251, .5);
+  padding-top: 69px;
+  padding-bottom: 109px;
+}
+
+.goals-corporate-events__title {
+  display: block;
+  text-align: center;
+  margin-bottom: 69px;
+}
+
+.goals-corporate-events__list {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+
+  li {
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .goals-corporate-events__list {
+    margin-bottom: 40px;
+  }
+}
+
+

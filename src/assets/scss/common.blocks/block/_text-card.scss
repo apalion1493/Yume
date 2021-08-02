@@ -51,6 +51,7 @@
 .text-card_horizontal {
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 
   .text-card__icon {
     margin-bottom: 0;
@@ -113,6 +114,10 @@
   display: none !important;
 }
 
+.plus-top-hidden:before {
+  display: none!important;
+}
+
 .section-color-bg {
   .text-card__icon-circle {
     background: #FFFFFF;
@@ -158,6 +163,7 @@
     width: 290px;
     margin-left: auto;
     margin-right: auto !important;
+    align-items: center;
 
     .text-card__body {
       align-items: flex-start;
