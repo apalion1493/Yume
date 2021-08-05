@@ -863,7 +863,7 @@
   display: block;
 }
 
-.portfolio {
+.portfolio-icon {
   background: url("../img/portfolio.svg") no-repeat center;
   background-size: 100% auto;
   width: 44px;
@@ -1060,6 +1060,38 @@
   background-size: 100% auto;
   width: 35px;
   height: 35px;
+  display: block;
+}
+
+.promotion-icon {
+  background: url("../img/promotion-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 43px;
+  height: 43px;
+  display: block;
+}
+
+.sales-icon {
+  background: url("../img/sales.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 43px;
+  height: 43px;
+  display: block;
+}
+
+.fans-icon {
+  background: url("../img/fans-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 38px;
+  height: 38px;
+  display: block;
+}
+
+.popularity-icon {
+  background: url("../img/popularity-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 40px;
+  height: 40px;
   display: block;
 }
 

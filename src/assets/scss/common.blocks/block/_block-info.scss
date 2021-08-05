@@ -35,6 +35,15 @@
   height: 158px;
 }
 
+.block-info__bg-Big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/block-info__bg-big.svg") no-repeat center;
+  background-size: cover;
+  padding: 39px 25px 56px 52px;
+}
+
 @media (max-width: 1199.98px) {
   .block-info {
     flex-direction: column;
@@ -68,5 +77,10 @@
     background: #F2F9FD;
     padding: 15px;
     height: auto;
+  }
+
+  .block-info__bg-Big {
+    background: #F2F9FD;
+    padding: 15px;
   }
 }

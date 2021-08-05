@@ -55,6 +55,16 @@
   }
 }
 
+.possibilities-section_prices {
+  .possibilities-section__block-title {
+    margin-bottom: 5px;
+  }
+
+  .possibilities-section__block-text {
+    line-height: 18px;
+  }
+}
+
 @media (max-width: 991.98px) {
   .possibilities-section__block:last-child {
     margin-bottom: 38px;
